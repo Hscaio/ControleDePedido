@@ -1,0 +1,17 @@
+.grid_container {
+    display: grid;                          /* Define o contêiner como grid */
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de igual largura */
+    gap: 10px;                             /* Espaço entre os itens da grid */
+    padding: 20px;                         /* Espaçamento interno no contêiner */
+    background-color: #f0f0f0;            /* Cor de fundo do contêiner */
+    border: 2px solid #222;                /* Borda do contêiner */
+}
+
+.grid_item {
+    background-color: #fff;                /* Cor de fundo dos itens */
+    border: 1px solid #ccc;                /* Borda dos itens */
+    padding: 20px;                         /* Espaçamento interno dos itens */
+    text-align: center;                    /* Centraliza o texto */
+    border-radius: 4px;                    /* Bordas arredondadas dos itens */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra dos itens */
+}
