@@ -11,8 +11,8 @@ function Navbar(){
                 <Link to='/'><img src={logo} alt='Logo'></img></Link> 
                 <ul className={styles.list}>
                     <li className={styles.item}><Link to='/'>Pedidos</Link></li>
-                    <li className={styles.item}><Link to='/customer'>Clientes</Link></li>                    
-                    <li className={styles.item}><Link to='/product'>Produtos</Link></li>
+                    <li className={styles.item}><Link to='/customers'>Clientes</Link></li>                    
+                    <li className={styles.item}><Link to='/products'>Produtos</Link></li>
                     <li className={styles.item}><Link to='/status'>Status</Link></li>                
                 </ul>                                                                           
             </Container>

@@ -5,7 +5,8 @@ import Footer from './components/layout/Footer'
 import Container from './components/layout/Container'
 
 import Orders from './components/pages/Orders';
-import Customer from './components/pages/Customer'
+import Customers from './components/pages/Customers'
+import Customer from './components/pages/Customer';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Container customClass="min-height">
         <Routes> 
           <Route exact path='/' element={<Orders/>} />
-          <Route path='/customer' element={<Customer/>} />
+          <Route path='/customers' element={<Customers/>} />
+          <Route path='/customer/:id' element={<Customer/>} />
         </Routes>           
       </Container>             
       <Footer/>      
