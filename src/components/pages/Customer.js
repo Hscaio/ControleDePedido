@@ -6,7 +6,7 @@ import Input from '../layout/Input'
 import CustomButton from '../layout/CustomButton'
 import LinkButton from '../layout/LinkButton'
 import Container from '../layout/Container'
-import { BiTab, BiTrim } from 'react-icons/bi'
+import TextArea from '../layout/TextArea'
 
 function Customer(){
     const {id} = useParams()
@@ -148,8 +148,17 @@ function Customer(){
                             handleOnChange={handleChange}
                             value={customer.state ? customer.state : ''}
                             customStyle={{ width: '10%' }}
-                        />                           
+                        />                                       
                     </Container>
+                    <TextArea 
+                            type="text" 
+                            placeholder="Observação" 
+                            name="obs" 
+                            text="Observação"
+                            handleOnChange={handleChange}
+                            value={customer.obs ? customer.obs : ''}
+                            customStyle={{height: '200px'}}
+                        />                     
                     <div className={styles.button_container}>
                         <CustomButton text='Salvar' icon='save'/>
                         <LinkButton text='Cancelar' icon='cancel' to='/customers'/>

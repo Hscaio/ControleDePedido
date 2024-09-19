@@ -24,8 +24,16 @@
     outline: none;
 }
 
-.btn svg {
-    margin-right: 10px;
+.icon_normal svg {    
     height: 25px;
     width: 25px;
+}
+
+.icon_small svg {
+    height: 15px;
+    width: 15px;
+}
+
+.icon_margin svg {
+    margin-right: 10px;
 }

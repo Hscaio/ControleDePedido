@@ -1,0 +1,29 @@
+.grid_container {
+    display: flex;                         
+    padding: 20px;   
+    width: 100%;                          
+}
+
+.grid_title{
+    background-color: #222;   
+    font-weight: bold;     
+    color: #ffbb33;
+    border: 2px solid #222;
+}
+
+.grid_row {
+    background-color: #fff;                
+    border: 1px solid #ccc;                
+    padding: 20px;                         
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.button_container{   
+    width: 50px;
+    background-color: #222;
+    border-bottom: 1px solid #ccc;     
+}
+
+.button_container button{   
+    width: 100%;
+}
